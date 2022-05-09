@@ -1618,7 +1618,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@docusaurus/plugin-content-docs@npm:2.0.0-beta.20":
+"@docusaurus/plugin-content-docs@npm:2.0.0-beta.20, @docusaurus/plugin-content-docs@npm:^2.0.0-beta.20":
   version: 2.0.0-beta.20
   resolution: "@docusaurus/plugin-content-docs@npm:2.0.0-beta.20"
   dependencies:
@@ -6278,6 +6278,7 @@ __metadata:
   resolution: "loader-needed@workspace:."
   dependencies:
     "@docusaurus/core": ^2.0.0-beta.20
+    "@docusaurus/plugin-content-docs": ^2.0.0-beta.20
     "@docusaurus/theme-classic": ^2.0.0-beta.20
     react: ^18.1.0
     react-dom: ^18.1.0
