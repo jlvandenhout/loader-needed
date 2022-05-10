@@ -1,11 +1,10 @@
 {
   "name": "module",
   "version": "0.0.0",
-  "packageManager": "yarn@3.2.0",
   "scripts": {
-    "start": "npx tool"
+    "start": "tool"
   },
   "dependencies": {
-    "tool": "../tool"
+    "tool": "file:../tool"
   }
 }

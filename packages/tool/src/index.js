@@ -1,5 +1,5 @@
 #!/usr/bin/env node
-const { execute } = require("@yarnpkg/shell");
 const config = require.resolve("../docusaurus.config.js");
+const docusaurus = require("@docusaurus/core/lib")
 
-execute(`npx docusaurus start --config ${config}`);
+docusaurus.start(process.cwd(), {config})
