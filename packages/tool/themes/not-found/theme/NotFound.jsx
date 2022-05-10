@@ -2,6 +2,7 @@ import React from 'react';
 import Layout from '@theme/Layout';
 import Link from '@docusaurus/Link';
 import routes from '@generated/routes';
+import './styles.css';
 
 export default function NotFound() {
   const availableRoutes = routes
