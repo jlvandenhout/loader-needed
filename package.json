@@ -1,11 +1,7 @@
 {
   "name": "loader-needed",
   "packageManager": "yarn@3.2.0",
-  "dependencies": {
-    "@docusaurus/core": "^2.0.0-beta.20",
-    "@docusaurus/plugin-content-docs": "^2.0.0-beta.20",
-    "@docusaurus/theme-classic": "^2.0.0-beta.20",
-    "react": "^18.1.0",
-    "react-dom": "^18.1.0"
-  }
+  "workspaces": [
+    "packages/*"
+  ]
 }

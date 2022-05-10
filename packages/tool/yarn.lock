@@ -1618,7 +1618,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@docusaurus/plugin-content-docs@npm:2.0.0-beta.20":
+"@docusaurus/plugin-content-docs@npm:2.0.0-beta.20, @docusaurus/plugin-content-docs@npm:^2.0.0-beta.20":
   version: 2.0.0-beta.20
   resolution: "@docusaurus/plugin-content-docs@npm:2.0.0-beta.20"
   dependencies:
@@ -6276,6 +6276,12 @@ __metadata:
 "loader-needed@workspace:.":
   version: 0.0.0-use.local
   resolution: "loader-needed@workspace:."
+  dependencies:
+    "@docusaurus/core": ^2.0.0-beta.20
+    "@docusaurus/plugin-content-docs": ^2.0.0-beta.20
+    "@docusaurus/theme-classic": ^2.0.0-beta.20
+    react: ^18.1.0
+    react-dom: ^18.1.0
   languageName: unknown
   linkType: soft
 
@@ -6848,12 +6854,6 @@ __metadata:
   checksum: a96865108c6c3b1b8e1d5e9f11843de1e077e57737602de1b82030815f311be11f96f09cce59bd5b903d0b29834733e5313f9301e3ed6d6f6fba2eae0df4298f
   languageName: node
   linkType: hard
-
-"module@workspace:packages/module":
-  version: 0.0.0-use.local
-  resolution: "module@workspace:packages/module"
-  languageName: unknown
-  linkType: soft
 
 "mrmime@npm:^1.0.0":
   version: 1.0.0
@@ -9467,20 +9467,6 @@ __metadata:
   checksum: 952c29e2a85d7123239b5cfdd889a0dde47ab0497f0913d70588f19c53f7e0b5327c95f4651e413c74b785147f9637b17410ac8c846d5d4a20a5a33eb6dc3a45
   languageName: node
   linkType: hard
-
-"tool@workspace:packages/tool":
-  version: 0.0.0-use.local
-  resolution: "tool@workspace:packages/tool"
-  dependencies:
-    "@docusaurus/core": ^2.0.0-beta.20
-    "@docusaurus/theme-classic": ^2.0.0-beta.20
-    react: ^18.1.0
-    react-dom: ^18.1.0
-  peerDependencies:
-    react: ^18.1.0
-    react-dom: ^18.1.0
-  languageName: unknown
-  linkType: soft
 
 "totalist@npm:^1.0.0":
   version: 1.1.0

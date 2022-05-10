@@ -1,5 +1,7 @@
 node_modules
 
+.docusaurus
+
 .yarn/*
 !.yarn/patches
 !.yarn/plugins

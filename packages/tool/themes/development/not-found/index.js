@@ -2,7 +2,7 @@ const path = require("path");
 
 module.exports = function () {
   return {
-    name: "theme-not-found-dev",
+    name: "theme-development/not-found",
     getThemePath: () => path.resolve(__dirname, "./theme"),
   };
 };
